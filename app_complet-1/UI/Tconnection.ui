@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>App_connenction</class>
+ <widget class="QWidget" name="App_connenction">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1031</width>
+    <height>778</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget_INSCRIPTION">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1031</width>
+     <height>781</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page_connexion">
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>-1</y>
+       <width>1332</width>
+       <height>861</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../Static/Ressouces/img.qrc">:/IMG/4404912.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_inscription">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>40</y>
+       <width>511</width>
+       <height>671</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:b;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_inscription">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>120</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	color:white
+}
+QLabel:hover
+{
+	color:rgb(14, 4, 64)
+}</string>
+      </property>
+      <property name="text">
+       <string>INSCRIPTION</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_works">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>10</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	color:grey
+}
+QLabel:hover
+{
+	color:white
+}</string>
+      </property>
+      <property name="text">
+       <string>works</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_about">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>10</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	color:grey
+}
+QLabel:hover
+{
+	color:white
+}</string>
+      </property>
+      <property name="text">
+       <string>about</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_contacts">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>10</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	color:grey
+}
+QLabel:hover
+{
+	color:white
+}</string>
+      </property>
+      <property name="text">
+       <string>contacts</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_other">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>480</y>
+        <width>85</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{color:white}QCheckBox:hover
+{
+	color:rgb(128, 128, 128)
+}</string>
+      </property>
+      <property name="text">
+       <string>other</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_strategie_consulting">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>450</y>
+        <width>151</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{color:white}QCheckBox:hover
+{
+	color:rgb(128, 128, 128)
+}</string>
+      </property>
+      <property name="text">
+       <string>Strategie &amp; consulting</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_2_user_rechear">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>480</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox
+{
+	color:white
+}
+QCheckBox:hover
+{
+	color:rgb(128, 128, 128)
+}</string>
+      </property>
+      <property name="text">
+       <string>user reseach</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_web">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>420</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{color:white}QCheckBox:hover
+{
+	color:rgb(128, 128, 128)
+}</string>
+      </property>
+      <property name="text">
+       <string>website design</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_Uxdesign">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>450</y>
+        <width>85</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{color:white}QCheckBox:hover
+{
+	color:rgb(128, 128, 128)
+}</string>
+      </property>
+      <property name="text">
+       <string>UX design</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_started">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>550</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover
+{
+	background-color:rgb(39, 12, 114);
+	color:white
+}
+
+QPushButton
+{
+	background-color:white;
+	font-size:20px;
+	font-family:arial
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Started</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_error_name">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>230</y>
+        <width>241</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4_error_email">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>280</y>
+        <width>241</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5_error_passwor">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>330</y>
+        <width>241</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6_error_Vpassword">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>380</y>
+        <width>241</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Vpassword">
+      <property name="geometry">
+       <rect>
+        <x>61</x>
+        <y>348</y>
+        <width>381</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border:0px solid;
+	border-bottom:1px solid grey;
+	color:grey
+}
+QLineEdit:hover
+{
+	border-bottom:2px solid white;
+	
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string> confirmer password</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_email">
+      <property name="geometry">
+       <rect>
+        <x>61</x>
+        <y>248</y>
+        <width>381</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border:0px solid;
+	border-bottom:1px solid grey;
+	color:grey
+}
+QLineEdit:hover
+{
+	border-bottom:2px solid white;
+	
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Your Email</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_name">
+      <property name="geometry">
+       <rect>
+        <x>61</x>
+        <y>198</y>
+        <width>381</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border:0px solid;
+	border-bottom:1px solid grey;
+	color:grey
+}
+QLineEdit:hover
+{
+	border-bottom:2px solid white;
+	
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Your Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_password">
+      <property name="geometry">
+       <rect>
+        <x>61</x>
+        <y>298</y>
+        <width>381</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border:0px solid;
+	border-bottom:1px solid grey;
+	color:grey
+}
+QLineEdit:hover
+{
+	border-bottom:2px solid white;
+	
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>password</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_content_creat">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>420</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{color:white}QCheckBox:hover
+{
+	color:rgb(128, 128, 128)
+}</string>
+      </property>
+      <property name="text">
+       <string>Content creation</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>18</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white</string>
+     </property>
+     <property name="text">
+      <string>ZERO GRAVITY</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_login"/>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Static/Ressouces/img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

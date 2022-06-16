@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="IMG">
+    <file>hide1.png</file>
+    <file>hide2.png</file>
+    <file>red-eye1.png</file>
+    <file>red-eye2.png</file>
+    <file>cyclone.png</file>
+    <file>house.png</file>
+    <file>cracking.png</file>
+    <file>muscle.png</file>
+    <file>padlock.png</file>
+    <file>[cloud.png</file>
+    <file>4404912.jpg</file>
+    <file>add (1).png</file>
+    <file>add.png</file>
+    <file>android-logo.png</file>
+    <file>crayon (1).png</file>
+    <file>crayon (2).png</file>
+    <file>crayon.png</file>
+    <file>diamond (1).png</file>
+    <file>diamond.png</file>
+    <file>graphic-design.png</file>
+    <file>layers.png</file>
+    <file>main-img.jpg</file>
+    <file>orange.png</file>
+    <file>stock-exchange-app.png</file>
+    <file>tete-de-lit-en-bois-et-tissu.jpeg</file>
+    <file>worldwide.png</file>
+  </qresource>
+</RCC>
